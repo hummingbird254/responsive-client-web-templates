@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <style>
+    /* Container for the image and text */
+    .image-container {
+      position: relative;
+      width: 100%;
+       /* Adjust as needed */
+       border-style: solid;
+    }
+
+    /* Style for the image */
+    .image-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Style for the overlay text */
+    .overlay-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+       /* Adjust as needed */
+     
+      transform: translate(-50%, -50%);
+      color: white; /* Text color */
+      font-size: 14px; /* Adjust as needed */
+      text-align: center;
+      opacity: 0.9;
+    }
+
+
+    .container-2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: rgb(207, 190, 151, 1.0);
+      border-radius: 0 0 0.8em 0.8em;
+      max-width: 97%;
+      border-style: solid;
+    
+    }
+    #foreword-title{
+      font-family: Courier;
+      color: white;
+      text-transform: uppercase;
+      font-weight: lighter;
+      background: rgb(56, 37, 11);
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 0px 0px 5px 5px;
+    }
+    #foreword-text{
+      font-family: Goudy Old Style;
+      text-align: center;
+      width: 80%;
+      margin-bottom: 2em;
+    }
+    .section1-about-tag{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+
+    }
+    .about-text{
+      font-family: Goudy Old Style;
+      font-weight: bolder;
+      font-size: 1.1em;
+      color: rgb(41, 40, 40, 1.0);
+      margin-bottom: 0px;
+
+    }
+    .about-line{
+
+      width: 3em;
+      color: black;
+    }
+
+
+
+
+
+  </style>
+</head>
+<body>
+
+<div class="image-container">
+  <img  class="img-fluid"  src="images/md6.JPG" alt="Your Image">
+  <div class="overlay-text">
+    
+      <section class="container container-2">
+    <p class="display-4" id="foreword-title">mefi associates</p>
+    <p id="foreword-text">Welcome to MEFI(Micro-Enterprise and Financial Inclusion) Associates, the epicenter of excellence in microfinance and enterprise development, nestled in the vibrant landscapes of Kenya. With a profound focus on agriculture value chain financing, Micro, Small, and Medium Enterprises (MSMEs), and Rural and Agricultural Finance, we are the driving force behind Africa's economic growth. Our core mission is to provide top-notch, on-demand training and consultancy services, marshaling a team of distinguished experts to empower both institutions and individuals across the region. At MeFi, we're architects of prosperity, committed to equipping you with the knowledge and skills needed to thrive in the ever-evolving world of microfinance and enterprise. Join us on this remarkable journey towards a limitless future where your success knows no bounds.</p>
+    <a href="#" class="section1-about-tag">
+          <p class="about-text">About Us</p>
+          <hr class="about-line">
+    </a>
+    </section>
+
+  </div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
